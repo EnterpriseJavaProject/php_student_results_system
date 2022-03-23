@@ -1,11 +1,9 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: Mar 23, 2022 at 01:13 PM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 8.1.2
+-- Login Details;
+-- Username: admin
+-- Password: admin@2020
+
+
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -59,9 +57,7 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-Login Details;
-Username: admin
-Password: admin@2020
+
 
 INSERT INTO `admin` (`id`, `UserName`, `Password`, `updationDate`) VALUES
 (1, 'admin', 'b99bbc0e85a70cb42dbaafabec773ddf', '2017-05-13 11:18:49');
